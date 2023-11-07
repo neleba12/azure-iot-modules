@@ -42,7 +42,7 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "${MODULES.LdrSensorModule}",
+              "image": "neleba/data-acquisition-ldrsensor:0.0.1-arm64v8",
               "createOptions": "{}"
             }
           },
@@ -62,7 +62,7 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "${MODULES.TelemetryTransmission}",
+              "image": "neleba/telemetry-transmission:0.0.1-arm64v8",
               "createOptions": "{}"
             }
           }

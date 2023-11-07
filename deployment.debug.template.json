@@ -63,7 +63,7 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "${MODULES.LdrSensorModule.debug}",
+              "image": "${MODULES.LdrSensorModule.arm64v8.debug}",
               "createOptions": {}
             }
           },
@@ -83,7 +83,7 @@
             "status": "running",
             "restartPolicy": "always",
             "settings": {
-              "image": "${MODULES.TelemetryTransmission.debug}",
+              "image": "${MODULES.TelemetryTransmission.arm64v8.debug}",
               "createOptions": {}
             }
           }
